@@ -1,7 +1,7 @@
 /*
 CREATE TABLE user (
    UserID integer,
-   Gender text,
+   Gender varchar,
    Age integer,
    Occupation integer,
    Zipcode integer
@@ -20,8 +20,8 @@ CREATE TABLE rating (
 /*
 CREATE TABLE movie (
   MovieID integer,
-  Title text,
-  Genres text
+  Title varchar,
+  Genres varchar
 );
 */
 
